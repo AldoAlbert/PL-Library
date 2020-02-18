@@ -10,6 +10,7 @@
     <string name="error_longitud_telefono">La longitud del teléfono no es correcta.</string>
 
     <string name="cargando">Cargando…</string>
+    <string name="error_title">¡Error!</string>
     <string name="error_generico">Ocurrió un error. Inténtalo de nuevo más tarde.</string>
     <string name="error_intenet">Verifica que tengas conexión a internet.</string>
     <string name="error_archivos_faltantes">Algunos archivos seleccionados ya no existen en el dispositivo.  Inténtalo de nuevo más tarde.</string>
