@@ -19,28 +19,28 @@ class DialogBuilder{
         return dialog
     }
 
-    fun buildDialog(title: String, message: String) {
-        makeDialog(title, message)
+    fun buildDialog(title: String, message: String): AlertDialog? {
+        return  makeDialog(title, message)
     }
 
-    fun buildErrorDialog() {
-        makeDialog("", c.getString(R.string.error_generico))
+    fun buildErrorDialog(): AlertDialog? {
+        return makeDialog("", c.getString(R.string.error_generico))
     }
 
-    fun buildNetworkErrorDialog() {
-        makeDialog(c.getString(R.string.error_title), c.getString(R.string.error_intenet))
+    fun buildNetworkErrorDialog(): AlertDialog? {
+        return makeDialog(c.getString(R.string.error_title), c.getString(R.string.error_intenet))
     }
 
-    fun buildCardErrorDialog() {
-        makeDialog(c.getString(R.string.error_title), c.getString(R.string.error_procesar_tarjeta))
+    fun buildCardErrorDialog(): AlertDialog? {
+        return makeDialog(c.getString(R.string.error_title), c.getString(R.string.error_procesar_tarjeta))
     }
 
-    fun buildInvalidFilesDialog() {
-        makeDialog(c.getString(R.string.error_title), c.getString(R.string.error_archivos_vacios))
+    fun buildInvalidFilesDialog(): AlertDialog? {
+        return makeDialog(c.getString(R.string.error_title), c.getString(R.string.error_archivos_vacios))
     }
 
-    fun buildUnavalibleFilesDialog() {
-        makeDialog(c.getString(R.string.error_title), c.getString(R.string.error_archivos_faltantes))
+    fun buildUnavalibleFilesDialog(): AlertDialog? {
+        return makeDialog(c.getString(R.string.error_title), c.getString(R.string.error_archivos_faltantes))
     }
 
 }
