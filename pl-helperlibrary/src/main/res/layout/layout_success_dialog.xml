@@ -14,8 +14,8 @@
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/animation_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/iconWidth"
+            android:layout_height="@dimen/iconHeight"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
@@ -54,6 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 tools:text="Aquí va el mensaje"
+                android:textAlignment="center"
                 android:textColor="@android:color/black" />
 
 

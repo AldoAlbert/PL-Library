@@ -26,6 +26,10 @@ class DialogBuilder{
         return  makeDialog(title, message, DefaultDialogFragment.SUCCESS_TYPE)
     }
 
+    fun buildLoadingDialog(title: String, message: String): DefaultDialogFragment? {
+        return  makeDialog(title, message, DefaultDialogFragment.LOADING_TYPE)
+    }
+
     fun buildCustomErrorDialog(title: String, message: String): DefaultDialogFragment? {
         return  makeDialog(title, message, DefaultDialogFragment.ERROR_TYPE)
     }
